@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(189, 255, 252);
+    font-family: "Comic Sans MS", serif;
+    font-size: 1.4em;
+    text-shadow: 1px 1px rgb(175, 40, 141);
+    margin: 0;
+
+    /*fancy background*/
+    opacity: 1;
+    background-image: repeating-linear-gradient(65deg, transparent 25%, transparent 75%, #f8d39b 75%, #b7f195), repeating-linear-gradient(45deg, #9999ff 25%, #eaf39c 75%, #9cedf3 75%, #f195e2); 
+    background-position: 0 0, 10px 10px;
+    background-size: 100px 100px;
+}
+
+h1 {
+    text-shadow: 3px 3px rgb(218, 57, 177);
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.centerChildren {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.price {
+    color: rgb(18, 223, 18);
+    text-shadow: 2px 2px #33ac39;
+}
+
+/* PAGE */
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+#header {
+    background: #9b95f1;
+    width: 100%;
+    background-color: #e5e5f7;
+    background-image: radial-gradient(circle at center center, #00c742, #a4fcff), repeating-radial-gradient(circle at center center, #f7af44, #be44f7, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;}
+
+/* SIDEBAR */
+
+.sidenav {
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 150px;
+    left: 10px;
+    background-color: #111;
+    overflow-x: hidden;
+    padding: 8px 0;
+    /* padding-top: 20px; */
+    padding-right: 20px;
+}
+
+/* .sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+  } */
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* MAIN */
+#main {
+    padding-left: 23%;
+    padding-right: 23%;
+    padding-bottom: 3rem;
+}
+
+/* FOOTER */
+#footer {
+    display: flex;
+    flex-direction: column;
+    background: #462b70;
+    color: rgb(208, 164, 221);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 3rem;
+    z-index: 1;
+}
+
+@media screen and (max-width: 970px) {
+    #main {
+        padding-bottom: 4rem;
+    }
+    #footer {
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .sidenav {
+        padding-top: 15px;
+        padding-right: 0px;
+        width: 100px;
+    }
+    .sidenav a {font-size: 14px;}
+}
+
+
+@media screen and (max-width: 640px) {
+    .sidenav {
+        padding-top: 15px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 60px;
+    }
+    .sidenav a {font-size: 7px;}
+}
+
+#jens {
+    width: 300px;
+}
+
+#garage {
+    width: 50rem;
+    max-width: 100%;
+}
+
+#kul_sol_brille {
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    width: 140px;
+    z-index: 2;
+}
+
+#kontorstol {
+    color: rgb(133, 81, 81);
+    text-shadow: 2px 2px rgb(255, 0, 0);
+}
+
+#hammer {
+    color: rgb(235, 82, 82);
+    text-shadow: 2px 2px rgb(0, 228, 0);
+}
+
+#tennis_stol {
+    color: rgb(151, 233, 0);
+    text-shadow: 2px 2px rgb(85, 189, 0);
+}
+
+#n_toeffel {
+    color: rgb(236, 52, 52);
+    text-shadow: 2px 2px rgb(54, 54, 54)
+}
+
+#b_toeffel {
+    color: rgb(80, 70, 70);
+    text-shadow: 2px 2px rgb(77, 56, 56);
+}
+
+#pult {
+    color: rgb(204, 99, 0);
+    text-shadow: 2px 2px rgb(65, 38, 16);
+}
+
+#ukjent {
+    color: rgb(29, 255, 244);
+    text-shadow: 2px 2px rgb(183, 0, 255);
+}

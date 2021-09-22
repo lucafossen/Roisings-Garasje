@@ -1,0 +1,2 @@
+* Add icon (with the <link> tag)
+* make it look slightly more modern, as if this guy has been running this website for 3 years and knows a bit more CSS
