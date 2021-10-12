@@ -17,7 +17,7 @@ h1 {
 }
 
 img {
-    width: 50%;
+    width: 400px;
     height: auto;
 }
 
@@ -136,6 +136,10 @@ img {
     .sidenav a {font-size: 7px;}
 }
 
+#inputDescription {
+    font-size: medium;
+}
+
 #jens {
     width: 300px;
 }
@@ -160,7 +164,7 @@ img {
 
 #hammer {
     color: rgb(235, 82, 82);
-    text-shadow: 2px 2px rgb(0, 228, 0);
+    text-shadow: 2px 2px rgb(0, 189, 0);
 }
 
 #tennis_stol {

@@ -1,0 +1,57 @@
+.qnaInstance {
+    width: 550px;
+    height: 300px;
+    background-color: rgb(53, 139, 139);
+    /* border: 1px solid red; */
+    margin-top: 100px;
+}
+
+.question {
+    width: 520px;
+    height: 150px;
+    background-color: rgb(70, 180, 180);
+    /* border: 1px solid red; */
+    /* margin-top: 10px; */
+    margin-left: 10px;
+}
+
+.answer {
+    width: 470px;
+    height: 115px;
+    background-color: rgb(156, 228, 228);
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+.post_meta {
+    height: 60px;
+}
+
+.post_profile {
+    height: 60px;
+    width: auto;
+    float: left;
+}
+
+.post_author {
+    font-size: 17px;
+    color: rgb(41, 87, 214);
+    text-shadow: none;
+    float: left;
+    padding-left: 15px;
+}
+
+.post_datetime {
+    font-size: 14px;
+    color: rgb(102, 41, 214);
+    text-shadow: none;
+    float: left;
+    padding-left: 15px;
+}
+
+.post_content {
+    font-size: 12px;
+    color: rgb(136, 57, 0);
+    text-shadow: none;
+}

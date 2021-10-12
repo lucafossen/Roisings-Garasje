@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <title>Om meg</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="qna.css">
+        <link rel="icon" type="image/ico" href="images/favicon.ico">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="page-container">
+            <!-- HEADER -->
+            <div id="header" class="centerChildren">
+                <a href="index.html">
+                    <img src="images/Animasjon-logo.gif" onmouseover="this.src='images/Animasjon-logo-hover.gif'" onmouseout="this.src='images/Animasjon-logo.gif'" alt=""/>
+                </a>
+            </div>
+            <!-- SIDEBAR -->
+            <div class="sidenav">
+                <a href="index.html">Hjemmeside</a>
+                <a href="om_meg.html">Om Meg</a>
+                <a href="produkter_tjenester.html">Produkter</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="sporsmaal_svar.html">Spørsmål og svar</a>
+            </div>
+            <!-- MAIN -->
+            <div id="main" class="centerChildren">
+                <h1>Spørsmål og svar</h1>
+                <p>Her er det bare å spørre i vei om alle mulig svar du har om garasjen min.</p>
+                <div id="qna">
+                    <div class="qnaInstance" id="qna0">
+                        <div class="question" id="q0">
+                            <div class="post_meta">
+                                <img class="post_profile" id="gunnhild_pp" alt="temp">
+                                <p class="post_author" id="gunnhild_pa"></p>
+                                <p class="post_datetime" id="gunnhild_dt"></p>
+                            </div>
+                            <p class="post_content" id="gunnhild_pc"></p>
+                        </div>
+                        <div class="answer" id="a0">
+                            <div class="post_meta">
+                                <img class="post_profile" id="jens_pp" alt="temp">
+                                <p class="post_author" id="jens_pa">Jens Eksingetveit Røising</p>
+                                <p class="post_datetime" id="jens_dt">13.08.2011 01:22</p>
+                            </div>
+                            <p class="post_content" id="jens_pc">Jeg tar egentlig bare imot forretningshenvendelser her, Gunnhild. Beklager</p>
+                        </div>
+                    </div>
+                </div>
+                <script src="qna.js"></script>
+            </div>
+            <!-- FOOTER -->
+            <div id="footer" class="centerChildren">
+                <p id="footerText"></p>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+
+    </body>
+</html>

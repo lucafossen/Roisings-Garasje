@@ -1,0 +1,2 @@
+var jens = JSON.parse('{"jens": {"id": 1,"name": "Jens Eksingetveit Røising","affiliation": "Admin","mail": "jensroisingalfakroell@hotmail.com","website": "roisingsgarasje.no"}}').jens;
+document.getElementById("footerText").innerHTML = `&copy; ${jens.website} | Design av ${jens.name.split(" ")[0]} ${jens.name.split(" ")[2]} | Kontakt: ${jens.mail}`;
