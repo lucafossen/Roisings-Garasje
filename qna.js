@@ -19,7 +19,7 @@ var qnaString = '{\
                 }'
 
 
-qnaJSON = JSON.parse(qnaString);
+var qnaJSON = JSON.parse(qnaString);
 
 document.getElementById('gunnhild_pp').src = qnaJSON.questions[0].profile;
 document.getElementById('gunnhild_pa').innerHTML = qnaJSON.questions[0].author;
